@@ -2,9 +2,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+
+
 public class Pendu {
 
 	public static void main(String[] args) {
+		Fenetre fen = new Fenetre();
 		System.out.println("jeu de pendu");
 		String rejouer = "O";
 
